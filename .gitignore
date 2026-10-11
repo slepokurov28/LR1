@@ -1,20 +1,23 @@
-# Папка сборки
+# C++
 build/
-cmake-build-*/
-
-# Служебные файлы CMake (если собирали в корне)
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 Makefile
 *.cmake
 !CMakeLists.txt
-
-# Скомпилированные файлы
-*.o
-*.obj
-*.exe
-*.out
-
-# Артефакт вашей программы
 biquadratic
+*.o
+*.exe
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# PyCharm (на всякий случай)
+.idea/
+
+# VS Code (если не хотите пушить настройки)
+.vscode/
